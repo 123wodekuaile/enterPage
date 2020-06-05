@@ -17,6 +17,7 @@
             <div class="logoCard">
                 <p class="text1">校园防疫    人人有责</p>
                 <p class=text2>浙江工业大学宣</p>
+                <img class="logoStyle" src="./assets/images/logo3.png" alt="">
             </div>
             <div class="card">
                 <p>Everyone is responsible for edidemic prevention on campus</p>
@@ -61,7 +62,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 99;
+        z-index: 100;
         .block{
             height: 100%;
             background: #4399df;
@@ -96,10 +97,20 @@
         margin-left: 0.26rem;
         margin-right: 1.07rem;
         .logoCard{
-            padding-top: 0.3rem;
-            height: 3.2rem;
+            padding-top: 0.2rem;
+            height: 3rem;
             background: #a674d2;
             width: 100%;
+            position: relative;
+            .logoStyle{
+                z-index: 1;
+                width: 2.9rem;
+                height: 2.9rem;
+                position: absolute;
+                top: 0;
+                left: 0.45rem;
+                top: 0.45rem;
+            }
             p{
                 color: #fff;
                 &.text1{
@@ -108,6 +119,8 @@
                     font-family:PingFangSC-Bold,PingFang SC;
                     font-weight:600;
                     transform: scale(1.01,1.01);
+                    z-index: 99;
+                    position: relative;
                 }
                 &.text2{
                     font-size: 18px;
@@ -118,16 +131,20 @@
                     transform: scale(1.13,1);
                     margin-top: 8px;
                     margin-right: 1.27rem;
+                    opacity: 0.8;
+                    z-index: 99;
                 }
             }
         }
         .card{
                 width: 7.25rem;
-                padding-top: 1.2rem;
+                padding-top: 1rem;
                 margin: 0 auto;
                 background: #fff;
                 border-radius: 10px 10px 0 0;
-                margin-top: -1.1rem;
+                margin-top: -0.9rem;
+                position: relative;
+                z-index: 2;
                 p{
                     width: 107%;
                     color: #000 !important;
