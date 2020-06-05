@@ -18,6 +18,13 @@ const config = {
                 loader: 'vue-loader'
             },
             {
+                test: /\.png$/,
+                loader: 'url-loader',
+                options:{
+                    esModule: false
+                }
+            },
+            {
                 test: /\.css$/,
                 use:[
                     'style-loader',

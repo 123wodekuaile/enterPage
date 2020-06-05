@@ -110,6 +110,7 @@
                 top: 0;
                 left: 0.45rem;
                 top: 0.45rem;
+                opacity: 0.7;
             }
             p{
                 color: #fff;
