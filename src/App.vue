@@ -31,16 +31,16 @@
                 <p style="margin-top: 0.45rem;">
                     <span style="color:#000;font-size:0.48rem">管理学院</span>
                 </p>
-                <p style="font-size:0.44rem;color:#000;margin-top:0.2rem">331100199605165210</p>
-                <p style="margin-top:0.4rem;font-size:0.23rem;color:#a1a1a1;">生成时间 Generation time:</p>
-                <p style="margin-top:0.32rem;font-size:0.23rem;color:#000;">2020-06-07 00:00:00</p>
-                <p style="margin-top:0.32rem;font-size:0.23rem;color:#a1a1a1;">到期时间 Expire Time</p>
-                <p style="margin-top:0.32rem;font-size:0.23rem;color:#000;">2020-06-08 23:59:59</p>
+                <p style="font-size:0.44rem;color:#000;margin-top:0.2rem">33250119960516022x</p>
+                <p style="margin-top:0.4rem;font-size:0.26rem;color:#a1a1a1;">生成时间 Generation time:</p>
+                <p style="margin-top:0.32rem;font-size:0.3rem;color:#000;">2020-06-08 00:00:00</p>
+                <p style="margin-top:0.32rem;font-size:0.26rem;color:#a1a1a1;">到期时间 Expire Time</p>
+                <p style="margin-top:0.32rem;font-size:0.3rem;color:#000;">2020-06-08 23:59:59</p>
                 <div style="margin-top:0.32rem;">
                     <img class="imgStyle" src="./assets/images/ercode.png" alt="">
                 </div>
-                <p style="text-align: left;font-size: 0.23rem;line-height:0.5rem;margin-top:0.5rem;"> <span style="margin-right:0.5rem;"></span> 凭此码可在学校朝晖校区、屏峰校区、莫干山校区范围内配合有效证件通行，请主动出示，配合检查。</p>
-                <p style="text-align: left;font-size: 0.23rem;line-height:0.5rem"> <span style="margin-right:0.5rem;"></span> This code can be used to pass with valid documents in the Zhaohui campus.Pingfeng campus and Moganshan campus,plaease zhudong chushiyixi thanks for gad</p>
+                <p style="text-align: left;font-size: 0.26rem;line-height:0.5rem;margin-top:0.5rem;"> <span style="margin-right:0.5rem;"></span> 凭此码可在学校朝晖校区、屏峰校区、莫干山校区范围内配合有效证件通行，请主动出示，配合检查。</p>
+                <p style="text-align: left;font-size: 0.26rem;line-height:0.5rem"> <span style="margin-right:0.5rem;"></span> This code can be used to pass with valid documents in the Zhaohui campus.Pingfeng campus and Moganshan campus,plaease zhudong chushiyixi thanks for gad</p>
             </div>
         </div>
 
@@ -157,7 +157,7 @@
         .textContent{
             text-align: center;
             .marginR10{
-                margin-right: 0.36rem;
+                margin-right: 0.32rem;
             }
             .marginT10{
                 margin-top: 0.64rem;
@@ -166,7 +166,7 @@
                 font-size: 0.5rem;
             }
             .middleText{
-                font-size: 0.24rem;
+                font-size: 0.34rem;
             }
             .imgStyle{
                 width: 4rem;
