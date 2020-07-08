@@ -28,12 +28,13 @@ const config = {
                 test: /\.css$/,
                 use:[
                     'style-loader',
-                    'css-loader'
+                    'css-loader',
+                    'postcss-loader'
                 ]
             },
             {
                 test:/\.less$/,
-                use:['style-loader','css-loader','less-loader']
+                use:['style-loader','css-loader','postcss-loader','less-loader']
             }
         ]
     },
@@ -51,7 +52,10 @@ const config = {
       
           }),
         new HtmlWebpackPlugin({
-            title:'申请人领取-学生校园通行码领取'
+            title:'测试代码',
+            meta:{
+                viewport:'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi',
+            }
         })
     ]
 }

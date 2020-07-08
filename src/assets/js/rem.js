@@ -2,9 +2,6 @@
     var docEl = document.documentElement
     var dpr = window.devicePixelRatio || 1
     var isPC = isPCFn()
-    var isApp = ~navigator.userAgent.toLowerCase().indexOf('zebra')
-    var isAndroid = ~navigator.userAgent.toLowerCase().indexOf('android')
-    var isIPhone = ~navigator.userAgent.toLowerCase().indexOf('iphone')
 
     function isPCFn(){
       var userAgentInfo = navigator.userAgent;
@@ -19,15 +16,6 @@
       return flag;  
     }
 
-    // adjust body font size
-    function setBodyFontSize () {
-      if (document.body) {
-        document.body.style.fontSize = (12 * dpr) + 'px'
-      }
-      else {
-        document.addEventListener('DOMContentLoaded', setBodyFontSize)
-      }
-    }
     // setBodyFontSize();
 
     // set 1rem = viewWidth / 10
@@ -58,20 +46,5 @@
         docEl.classList.add('hairlines')
       }
       docEl.removeChild(fakeBody)
-    }
-
-    // pc
-    if (isPC) {
-      docEl.classList.add('desktop')
-    } else if(isApp) {
-      docEl.classList.add('hybrid')
-    } else {
-      docEl.classList.add('h5')
-    }
-
-    if (isAndroid) {
-      docEl.classList.add('android')
-    } else if (isIPhone) {
-      docEl.classList.add('iPhone')
     }
 }(window, document))
